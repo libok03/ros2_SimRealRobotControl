@@ -1,0 +1,56 @@
+[0.187s] Invoking command in '/home/libok/um_file/build/ros2srrc_rx160': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_rx160 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_rx160
+[4.153s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[4.153s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[4.154s]   CMake.
+[4.154s] 
+[4.154s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[4.154s]   to tell CMake that the project requires at least <min> but has been updated
+[4.154s]   to work with policies introduced by <max> or earlier.
+[4.154s] 
+[4.155s] [0m
+[4.177s] -- The C compiler identification is GNU 11.4.0
+[4.177s] -- The CXX compiler identification is GNU 11.4.0
+[4.177s] -- Detecting C compiler ABI info
+[4.178s] -- Detecting C compiler ABI info - done
+[4.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.178s] -- Detecting C compile features
+[4.178s] -- Detecting C compile features - done
+[4.179s] -- Detecting CXX compiler ABI info
+[4.182s] -- Detecting CXX compiler ABI info - done
+[4.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.183s] -- Detecting CXX compile features
+[4.183s] -- Detecting CXX compile features - done
+[4.183s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.185s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[4.185s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.185s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.186s] -- Added test 'lint_cmake' to check CMake code style
+[4.186s] -- Added test 'xmllint' to check XML markup files
+[4.186s] -- Configuring done (3.7s)
+[4.186s] -- Generating done (0.0s)
+[4.186s] -- Build files have been written to: /home/libok/um_file/build/ros2srrc_rx160
+[4.191s] Invoked command in '/home/libok/um_file/build/ros2srrc_rx160' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_rx160 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_rx160
+[4.196s] Invoking command in '/home/libok/um_file/build/ros2srrc_rx160': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_rx160 -- -j18 -l18
+[4.896s] Invoked command in '/home/libok/um_file/build/ros2srrc_rx160' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_rx160 -- -j18 -l18
+[4.907s] Invoking command in '/home/libok/um_file/build/ros2srrc_rx160': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_rx160
+[5.303s] -- Install configuration: ""
+[5.306s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/config
+[5.307s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/config/configurations.yaml
+[5.309s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/urdf
+[5.309s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/urdf/rx160.urdf.xacro
+[5.309s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ament_index/resource_index/package_run_dependencies/ros2srrc_rx160
+[5.309s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ament_index/resource_index/parent_prefix_path/ros2srrc_rx160
+[5.309s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/environment/ament_prefix_path.sh
+[5.310s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/environment/ament_prefix_path.dsv
+[5.310s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/environment/path.sh
+[5.310s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/environment/path.dsv
+[5.310s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/local_setup.bash
+[5.310s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/local_setup.sh
+[5.311s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/local_setup.zsh
+[5.311s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/local_setup.dsv
+[5.312s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/package.dsv
+[5.312s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ament_index/resource_index/packages/ros2srrc_rx160
+[5.312s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/cmake/ros2srrc_rx160Config.cmake
+[5.312s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/cmake/ros2srrc_rx160Config-version.cmake
+[5.312s] -- Installing: /home/libok/um_file/install/ros2srrc_rx160/share/ros2srrc_rx160/package.xml
+[5.372s] Invoked command in '/home/libok/um_file/build/ros2srrc_rx160' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_rx160

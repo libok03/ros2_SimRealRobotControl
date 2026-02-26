@@ -1,0 +1,127 @@
+[0.029s] Invoking command in '/home/libok/um_file/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2srrc_moveit -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_moveit
+[1.894s] -- The C compiler identification is GNU 11.4.0
+[1.894s] -- The CXX compiler identification is GNU 11.4.0
+[1.894s] -- Detecting C compiler ABI info
+[1.894s] -- Detecting C compiler ABI info - done
+[1.894s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.895s] -- Detecting C compile features
+[1.895s] -- Detecting C compile features - done
+[1.895s] -- Detecting CXX compiler ABI info
+[1.895s] -- Detecting CXX compiler ABI info - done
+[1.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.895s] -- Detecting CXX compile features
+[1.896s] -- Detecting CXX compile features - done
+[1.896s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.896s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.896s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.896s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.896s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.897s]   CMake.
+[1.897s] 
+[1.897s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.897s]   to tell CMake that the project requires at least <min> but has been updated
+[1.900s]   to work with policies introduced by <max> or earlier.
+[1.900s] 
+[1.901s] [0m
+[2.169s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.181s] -- Added test 'lint_cmake' to check CMake code style
+[2.190s] -- Added test 'xmllint' to check XML markup files
+[2.197s] -- Configuring done (2.2s)
+[2.206s] -- Generating done (0.0s)
+[2.210s] -- Build files have been written to: /home/libok/um_file/build/ros2srrc_moveit
+[2.225s] Invoked command in '/home/libok/um_file/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2srrc_moveit -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_moveit
+[2.231s] Invoking command in '/home/libok/um_file/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_moveit -- -j18 -l18
+[2.936s] Invoked command in '/home/libok/um_file/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_moveit -- -j18 -l18
+[2.938s] Invoking command in '/home/libok/um_file/build/ros2srrc_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_moveit
+[3.039s] -- Install configuration: ""
+[3.040s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config
+[3.041s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.srdf
+[3.041s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.srdf
+[3.042s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.rviz
+[3.042s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.srdf
+[3.042s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.srdf
+[3.043s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.rviz
+[3.043s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.rviz
+[3.044s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3.srdf
+[3.044s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_2f85.rviz
+[3.045s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.srdf
+[3.046s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.srdf
+[3.047s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.srdf
+[3.047s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.srdf
+[3.047s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.srdf
+[3.047s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.srdf
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.srdf
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.rviz
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.rviz
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_hande.rviz
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.rviz
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.rviz
+[3.048s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_hande.rviz
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.srdf
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.rviz
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.rviz
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.srdf
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_2f85.rviz
+[3.049s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.srdf
+[3.050s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa_robotiq_2f85.rviz
+[3.050s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.srdf
+[3.050s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_2f85.srdf
+[3.051s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e_robotiq_hande.rviz
+[3.051s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.srdf
+[3.051s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e.rviz
+[3.051s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e.rviz
+[3.051s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.rviz
+[3.056s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.srdf
+[3.057s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.rviz
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3e_robotiq_2f85.srdf
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.rviz
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5_robotiq_hande.rviz
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.rviz
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e.rviz
+[3.058s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640_gpp5010nc.srdf
+[3.059s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.srdf
+[3.059s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_hande.srdf
+[3.059s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.rviz
+[3.061s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.rviz
+[3.062s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1600.rviz
+[3.062s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_hande.rviz
+[3.062s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10.srdf
+[3.062s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur3_robotiq_2f85.rviz
+[3.063s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb6640.srdf
+[3.064s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_egp64.srdf
+[3.064s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.rviz
+[3.064s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/rx160.rviz
+[3.064s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5.rviz
+[3.065s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_2f85.rviz
+[3.065s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.rviz
+[3.065s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20_robotiq_2f85.srdf
+[3.065s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200_egp64.srdf
+[3.065s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.srdf
+[3.066s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur5e_robotiq_hande.rviz
+[3.066s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur16e.srdf
+[3.066s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10_robotiq_2f85.srdf
+[3.066s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120_ls_vgr.srdf
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4.rviz
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur20.srdf
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb120.srdf
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.rviz
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/iiwa.srdf
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/irb1200.srdf
+[3.067s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ar4_ar4gripper.rviz
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/config/ur10e_robotiq_hande.srdf
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ament_index/resource_index/package_run_dependencies/ros2srrc_moveit
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ament_index/resource_index/parent_prefix_path/ros2srrc_moveit
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.sh
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/ament_prefix_path.dsv
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.sh
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/environment/path.dsv
+[3.068s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.bash
+[3.069s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.sh
+[3.069s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.zsh
+[3.069s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/local_setup.dsv
+[3.074s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/package.dsv
+[3.074s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ament_index/resource_index/packages/ros2srrc_moveit
+[3.074s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig.cmake
+[3.074s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/cmake/ros2srrc_moveitConfig-version.cmake
+[3.075s] -- Installing: /home/libok/um_file/install/ros2srrc_moveit/share/ros2srrc_moveit/package.xml
+[3.106s] Invoked command in '/home/libok/um_file/build/ros2srrc_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_moveit

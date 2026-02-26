@@ -1,0 +1,121 @@
+[0.043s] Invoking command in '/home/libok/um_file/build/joint_state_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/joint_state_broadcaster
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.753s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.827s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.835s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.847s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.919s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.148s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.292s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.301s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.343s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.434s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.438s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.473s] -- Found FastRTPS: /opt/ros/humble/include
+[1.479s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.494s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.707s] -- Found Threads: TRUE
+[1.879s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.885s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.927s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.973s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.976s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.048s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.054s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.111s] -- The C compiler identification is GNU 11.4.0
+[2.129s] -- Detecting C compiler ABI info
+[2.348s] -- Detecting C compiler ABI info - done
+[2.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.396s] -- Detecting C compile features
+[2.399s] -- Detecting C compile features - done
+[2.409s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.409s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.410s]   CMake.
+[2.410s] 
+[2.410s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.411s]   to tell CMake that the project requires at least <min> but has been updated
+[2.411s]   to work with policies introduced by <max> or earlier.
+[2.411s] 
+[2.411s] [0m
+[2.411s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.413s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.420s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.420s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.420s]   CMake.
+[2.420s] 
+[2.420s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.420s]   to tell CMake that the project requires at least <min> but has been updated
+[2.420s]   to work with policies introduced by <max> or earlier.
+[2.421s] 
+[2.421s] [0m
+[2.571s] -- Configuring done (2.5s)
+[2.626s] -- Generating done (0.1s)
+[2.636s] -- Build files have been written to: /home/libok/um_file/build/joint_state_broadcaster
+[2.664s] Invoked command in '/home/libok/um_file/build/joint_state_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/joint_state_broadcaster
+[2.664s] Invoking command in '/home/libok/um_file/build/joint_state_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/joint_state_broadcaster -- -j18 -l18
+[3.283s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.283s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.283s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp /home/libok/um_file/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `[0m
+[3.283s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.650s] [ 38%] [34m[1mCreating deprecated header file /home/libok/um_file/build/joint_state_broadcaster/include/joint_state_broadcaster_parameters.hpp[0m
+[3.843s] [ 38%] Built target joint_state_broadcaster_parameters
+[3.940s] [ 46%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[8.632s] [ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[9.330s] [ 53%] Built target gmock_main
+[43.483s] [ 61%] [32m[1mLinking CXX static library libgmock.a[0m
+[43.991s] [ 61%] Built target gmock
+[55.158s] [ 69%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[56.369s] [ 69%] Built target joint_state_broadcaster
+[56.501s] [ 76%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[73.501s] [ 84%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[74.581s] [ 84%] Built target test_load_joint_state_broadcaster
+[74.661s] [ 92%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[132.947s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[135.189s] [100%] Built target test_joint_state_broadcaster
+[135.242s] Invoked command in '/home/libok/um_file/build/joint_state_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/joint_state_broadcaster -- -j18 -l18
+[135.245s] Invoking command in '/home/libok/um_file/build/joint_state_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/joint_state_broadcaster
+[137.290s] -- Install configuration: ""
+[137.290s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster
+[137.290s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster_parameters.hpp
+[137.291s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/joint_state_plugin.xml
+[137.291s] -- Up-to-date: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster
+[137.292s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster
+[137.293s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[137.293s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[137.293s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[137.294s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[137.294s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[137.294s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[137.294s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[137.294s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[137.294s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[137.295s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[137.296s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.297s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[137.297s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[137.297s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[137.297s] -- Installing: /home/libok/um_file/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[137.544s] Invoked command in '/home/libok/um_file/build/joint_state_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/joint_state_broadcaster

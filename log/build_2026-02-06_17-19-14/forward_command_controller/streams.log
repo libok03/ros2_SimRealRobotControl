@@ -1,0 +1,136 @@
+[0.046s] Invoking command in '/home/libok/um_file/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/forward_command_controller
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.357s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.767s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.840s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.847s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.884s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.298s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.305s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.340s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.446s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.451s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.481s] -- Found FastRTPS: /opt/ros/humble/include
+[1.486s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.509s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.723s] -- Found Threads: TRUE
+[1.815s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.819s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.845s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.885s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.887s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.928s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.933s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.021s] -- The C compiler identification is GNU 11.4.0
+[2.030s] -- Detecting C compiler ABI info
+[2.208s] -- Detecting C compiler ABI info - done
+[2.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.231s] -- Detecting C compile features
+[2.232s] -- Detecting C compile features - done
+[2.252s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.252s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.252s]   CMake.
+[2.252s] 
+[2.254s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.254s]   to tell CMake that the project requires at least <min> but has been updated
+[2.254s]   to work with policies introduced by <max> or earlier.
+[2.254s] 
+[2.254s] [0m
+[2.257s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.258s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.266s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.266s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.266s]   CMake.
+[2.266s] 
+[2.266s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.266s]   to tell CMake that the project requires at least <min> but has been updated
+[2.266s]   to work with policies introduced by <max> or earlier.
+[2.266s] 
+[2.266s] [0m
+[2.458s] -- Configuring done (2.4s)
+[2.564s] -- Generating done (0.1s)
+[2.584s] -- Build files have been written to: /home/libok/um_file/build/forward_command_controller
+[2.634s] Invoked command in '/home/libok/um_file/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/forward_command_controller
+[2.634s] Invoking command in '/home/libok/um_file/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/forward_command_controller -- -j18 -l18
+[3.006s] [  4%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/forward_command_controller/include/forward_command_controller/forward_command_controller_parameters.hpp /home/libok/um_file/ros2_controllers/forward_command_controller/src/forward_command_controller_parameters.yaml `[0m
+[3.007s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/forward_command_controller/include/forward_command_controller/multi_interface_forward_command_controller_parameters.hpp /home/libok/um_file/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller_parameters.yaml `[0m
+[3.007s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.007s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.007s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.141s] [ 28%] [34m[1mCreating deprecated header file /home/libok/um_file/build/forward_command_controller/include/forward_command_controller_parameters.hpp[0m
+[3.210s] [ 28%] Built target forward_command_controller_parameters
+[3.329s] [ 33%] [34m[1mCreating deprecated header file /home/libok/um_file/build/forward_command_controller/include/multi_interface_forward_command_controller_parameters.hpp[0m
+[3.354s] [ 33%] Built target multi_interface_forward_command_controller_parameters
+[3.403s] [ 38%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_controllers_base.cpp.o[0m
+[3.403s] [ 42%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[3.407s] [ 47%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o[0m
+[12.333s] [ 52%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[12.911s] [ 52%] Built target gmock_main
+[52.725s] [ 57%] [32m[1mLinking CXX static library libgmock.a[0m
+[53.190s] [ 57%] Built target gmock
+[57.347s] [ 61%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[58.844s] [ 61%] Built target forward_command_controller
+[58.913s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[78.212s] [ 71%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[79.283s] [ 71%] Built target test_load_forward_command_controller
+[79.342s] [ 76%] [32mBuilding CXX object CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_interface_forward_command_controller.cpp.o[0m
+[113.095s] [ 80%] [32m[1mLinking CXX executable test_multi_interface_forward_command_controller[0m
+[115.538s] [ 80%] Built target test_multi_interface_forward_command_controller
+[115.638s] [ 85%] [32mBuilding CXX object CMakeFiles/test_load_multi_interface_forward_command_controller.dir/test/test_load_multi_interface_forward_command_controller.cpp.o[0m
+[132.142s] [ 90%] [32m[1mLinking CXX executable test_load_multi_interface_forward_command_controller[0m
+[132.975s] [ 90%] Built target test_load_multi_interface_forward_command_controller
+[133.011s] [ 95%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[162.973s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[164.658s] [100%] Built target test_forward_command_controller
+[164.694s] Invoked command in '/home/libok/um_file/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/forward_command_controller -- -j18 -l18
+[164.698s] Invoking command in '/home/libok/um_file/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/forward_command_controller
+[201.215s] -- Install configuration: ""
+[201.215s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller
+[201.215s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/multi_interface_forward_command_controller_parameters.hpp
+[201.215s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller_parameters.hpp
+[201.215s] -- Up-to-date: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller
+[201.216s] -- Up-to-date: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/multi_interface_forward_command_controller_parameters.hpp
+[201.216s] -- Up-to-date: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller_parameters.hpp
+[201.216s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/forward_command_plugin.xml
+[201.216s] -- Up-to-date: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller
+[201.217s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller
+[201.226s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller/multi_interface_forward_command_controller.hpp
+[201.227s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_command_controller.hpp
+[201.227s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller/visibility_control.h
+[201.228s] -- Installing: /home/libok/um_file/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_controllers_base.hpp
+[201.229s] -- Installing: /home/libok/um_file/install/forward_command_controller/lib/libforward_command_controller.so
+[201.231s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/forward_command_controller/lib/libforward_command_controller.so" to ""
+[201.231s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[201.231s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[201.232s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[201.232s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[201.232s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[201.232s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[201.233s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[201.233s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[201.233s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[201.233s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[201.234s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[201.234s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[201.234s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/package.dsv
+[201.234s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[201.235s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[201.235s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport.cmake
+[201.235s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport-noconfig.cmake
+[201.235s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[201.236s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_targets-extras.cmake
+[201.236s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[201.236s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[201.236s] -- Installing: /home/libok/um_file/install/forward_command_controller/share/forward_command_controller/package.xml
+[201.365s] Invoked command in '/home/libok/um_file/build/forward_command_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/forward_command_controller

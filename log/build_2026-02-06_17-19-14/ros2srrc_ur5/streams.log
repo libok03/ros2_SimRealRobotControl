@@ -1,0 +1,58 @@
+[0.313s] Invoking command in '/home/libok/um_file/build/ros2srrc_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_ur5 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_ur5
+[0.323s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.323s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.323s]   CMake.
+[0.323s] 
+[0.323s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.324s]   to tell CMake that the project requires at least <min> but has been updated
+[0.324s]   to work with policies introduced by <max> or earlier.
+[0.324s] 
+[0.324s] [0m
+[0.452s] -- The C compiler identification is GNU 11.4.0
+[0.682s] -- The CXX compiler identification is GNU 11.4.0
+[0.705s] -- Detecting C compiler ABI info
+[0.914s] -- Detecting C compiler ABI info - done
+[0.962s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.962s] -- Detecting C compile features
+[0.963s] -- Detecting C compile features - done
+[1.011s] -- Detecting CXX compiler ABI info
+[1.233s] -- Detecting CXX compiler ABI info - done
+[1.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.300s] -- Detecting CXX compile features
+[1.303s] -- Detecting CXX compile features - done
+[1.332s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.800s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.032s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.467s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.473s] -- Added test 'lint_cmake' to check CMake code style
+[2.480s] -- Added test 'xmllint' to check XML markup files
+[2.484s] -- Configuring done (2.2s)
+[2.493s] -- Generating done (0.0s)
+[2.495s] -- Build files have been written to: /home/libok/um_file/build/ros2srrc_ur5
+[2.524s] Invoked command in '/home/libok/um_file/build/ros2srrc_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_ur5 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_ur5
+[2.528s] Invoking command in '/home/libok/um_file/build/ros2srrc_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_ur5 -- -j18 -l18
+[2.582s] Invoked command in '/home/libok/um_file/build/ros2srrc_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_ur5 -- -j18 -l18
+[2.587s] Invoking command in '/home/libok/um_file/build/ros2srrc_ur5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_ur5
+[2.598s] -- Install configuration: ""
+[2.598s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/config
+[2.605s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/config/configurations.yaml
+[2.607s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/urdf
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/urdf/ur5_robotiq_2f85.urdf.xacro
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/urdf/ur5.urdf.xacro
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/urdf/ur5_robotiq_hande.urdf.xacro
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur5
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur5
+[2.608s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/environment/ament_prefix_path.sh
+[2.609s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/environment/ament_prefix_path.dsv
+[2.609s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/environment/path.sh
+[2.609s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/environment/path.dsv
+[2.609s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/local_setup.bash
+[2.609s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/local_setup.sh
+[2.610s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/local_setup.zsh
+[2.610s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/local_setup.dsv
+[2.612s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/package.dsv
+[2.614s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ament_index/resource_index/packages/ros2srrc_ur5
+[2.617s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/cmake/ros2srrc_ur5Config.cmake
+[2.617s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/cmake/ros2srrc_ur5Config-version.cmake
+[2.617s] -- Installing: /home/libok/um_file/install/ros2srrc_ur5/share/ros2srrc_ur5/package.xml
+[2.669s] Invoked command in '/home/libok/um_file/build/ros2srrc_ur5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_ur5

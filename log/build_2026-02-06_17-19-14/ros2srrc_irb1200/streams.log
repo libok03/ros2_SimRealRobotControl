@@ -1,0 +1,57 @@
+[0.309s] Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_irb1200 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_irb1200
+[8.161s] -- The C compiler identification is GNU 11.4.0
+[8.167s] -- The CXX compiler identification is GNU 11.4.0
+[8.167s] -- Detecting C compiler ABI info
+[8.167s] -- Detecting C compiler ABI info - done
+[8.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.168s] -- Detecting C compile features
+[8.168s] -- Detecting C compile features - done
+[8.171s] -- Detecting CXX compiler ABI info
+[8.171s] -- Detecting CXX compiler ABI info - done
+[8.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.172s] -- Detecting CXX compile features
+[8.172s] -- Detecting CXX compile features - done
+[8.172s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.172s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[8.172s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.172s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.172s] -- Added test 'lint_cmake' to check CMake code style
+[8.172s] -- Added test 'xmllint' to check XML markup files
+[8.175s] -- Configuring done (5.5s)
+[8.175s] -- Generating done (0.0s)
+[8.175s] -- Build files have been written to: /home/libok/um_file/build/ros2srrc_irb1200
+[8.183s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[8.183s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[8.183s]   CMake.
+[8.183s] 
+[8.183s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[8.184s]   to tell CMake that the project requires at least <min> but has been updated
+[8.184s]   to work with policies introduced by <max> or earlier.
+[8.188s] 
+[8.188s] [0m
+[8.195s] Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_irb1200 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_irb1200
+[8.216s] Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_irb1200 -- -j18 -l18
+[10.202s] Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_irb1200 -- -j18 -l18
+[10.208s] Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_irb1200
+[10.823s] -- Install configuration: ""
+[10.823s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/config
+[10.823s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/config/configurations.yaml
+[10.823s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/urdf
+[10.823s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/urdf/irb1200_egp64.urdf.xacro
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/urdf/irb1200.urdf.xacro
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb1200
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb1200
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/ament_prefix_path.sh
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/ament_prefix_path.dsv
+[10.824s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/path.sh
+[10.825s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/environment/path.dsv
+[10.825s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.bash
+[10.825s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.sh
+[10.826s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.zsh
+[10.826s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/local_setup.dsv
+[10.827s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/package.dsv
+[10.827s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ament_index/resource_index/packages/ros2srrc_irb1200
+[10.827s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/cmake/ros2srrc_irb1200Config.cmake
+[10.827s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/cmake/ros2srrc_irb1200Config-version.cmake
+[10.829s] -- Installing: /home/libok/um_file/install/ros2srrc_irb1200/share/ros2srrc_irb1200/package.xml
+[11.063s] Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_irb1200

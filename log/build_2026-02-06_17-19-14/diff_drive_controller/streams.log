@@ -1,0 +1,126 @@
+[0.041s] Invoking command in '/home/libok/um_file/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/diff_drive_controller
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.360s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.645s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.818s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.910s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.921s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.935s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.359s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.364s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.401s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.540s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.588s] -- Found FastRTPS: /opt/ros/humble/include
+[1.597s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.623s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.859s] -- Found Threads: TRUE
+[1.952s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.956s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.981s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.018s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.043s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[2.051s] -- Found tf2_msgs: 0.25.18 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.109s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.112s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.154s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.156s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.234s] -- The C compiler identification is GNU 11.4.0
+[2.255s] -- Detecting C compiler ABI info
+[2.453s] -- Detecting C compiler ABI info - done
+[2.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.509s] -- Detecting C compile features
+[2.513s] -- Detecting C compile features - done
+[2.527s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.528s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.528s]   CMake.
+[2.528s] 
+[2.528s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.528s]   to tell CMake that the project requires at least <min> but has been updated
+[2.528s]   to work with policies introduced by <max> or earlier.
+[2.528s] 
+[2.528s] [0m
+[2.530s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.536s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.541s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.541s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.541s]   CMake.
+[2.541s] 
+[2.541s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.541s]   to tell CMake that the project requires at least <min> but has been updated
+[2.541s]   to work with policies introduced by <max> or earlier.
+[2.541s] 
+[2.542s] [0m
+[2.741s] -- Configuring done (2.7s)
+[2.881s] -- Generating done (0.1s)
+[2.916s] -- Build files have been written to: /home/libok/um_file/build/diff_drive_controller
+[2.991s] Invoked command in '/home/libok/um_file/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/diff_drive_controller
+[2.991s] Invoking command in '/home/libok/um_file/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/diff_drive_controller -- -j18 -l18
+[5.532s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[5.532s] [ 13%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/diff_drive_controller/include/diff_drive_controller/diff_drive_controller_parameters.hpp /home/libok/um_file/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `[0m
+[5.533s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[5.533s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.729s] [ 33%] [34m[1mCreating deprecated header file /home/libok/um_file/build/diff_drive_controller/include/diff_drive_controller_parameters.hpp[0m
+[6.797s] [ 33%] Built target diff_drive_controller_parameters
+[6.847s] [ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[6.848s] [ 46%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[6.876s] [ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[11.737s] [ 60%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[11.829s] [ 60%] Built target gmock_main
+[41.202s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[42.482s] [ 66%] Built target gmock
+[77.621s] [ 73%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[79.841s] [ 73%] Built target diff_drive_controller
+[79.914s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[110.606s] [ 86%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[112.788s] [ 86%] Built target test_load_diff_drive_controller
+[112.888s] [ 93%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[135.938s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[137.141s] [100%] Built target test_diff_drive_controller
+[137.202s] Invoked command in '/home/libok/um_file/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/diff_drive_controller -- -j18 -l18
+[137.284s] Invoking command in '/home/libok/um_file/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/diff_drive_controller
+[137.313s] -- Install configuration: ""
+[137.314s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller
+[137.315s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller_parameters.hpp
+[137.317s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+[137.317s] -- Up-to-date: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller
+[137.318s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller
+[137.319s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+[137.320s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+[137.321s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/visibility_control.h
+[137.322s] -- Installing: /home/libok/um_file/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+[137.322s] -- Installing: /home/libok/um_file/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[137.323s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[137.323s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[137.324s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[137.325s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[137.325s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[137.326s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[137.328s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[137.333s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[137.334s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[137.336s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[137.336s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[137.337s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[137.337s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[137.337s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[137.339s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[137.341s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[137.342s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+[137.343s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-noconfig.cmake
+[137.344s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.345s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[137.346s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[137.347s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[137.348s] -- Installing: /home/libok/um_file/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[137.713s] Invoked command in '/home/libok/um_file/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/diff_drive_controller

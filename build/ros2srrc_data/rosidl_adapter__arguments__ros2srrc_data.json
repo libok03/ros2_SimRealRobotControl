@@ -1,0 +1,18 @@
+{
+  "package_name": "ros2srrc_data",
+  "non_idl_tuples": [
+    "/home/libok/um_file/ros2srrc_data:msg/Specs.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Robmove.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Joint.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Joints.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Xyz.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Xyzypr.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Ypr.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Action.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Linkattacher.msg",
+    "/home/libok/um_file/ros2srrc_data:msg/Robpose.msg",
+    "/home/libok/um_file/ros2srrc_data:action/Move.action",
+    "/home/libok/um_file/ros2srrc_data:action/Sequence.action",
+    "/home/libok/um_file/ros2srrc_data:action/Robmove.action"
+  ]
+}

@@ -1,0 +1,131 @@
+[0.046s] Invoking command in '/home/libok/um_file/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/mecanum_drive_controller
+[2.649s] -- The CXX compiler identification is GNU 11.4.0
+[2.649s] -- Detecting CXX compiler ABI info
+[2.649s] -- Detecting CXX compiler ABI info - done
+[2.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.649s] -- Detecting CXX compile features
+[2.649s] -- Detecting CXX compile features - done
+[2.650s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.650s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.650s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.650s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.651s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.651s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.651s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.651s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.651s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[2.651s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.651s] -- Found FastRTPS: /opt/ros/humble/include
+[2.651s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.651s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.651s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.651s] -- Found Threads: TRUE
+[2.652s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.652s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.652s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.652s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.654s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.656s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[2.657s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.663s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.663s] -- Found Eigen3: TRUE (found version "3.4.0")
+[2.663s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.669s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.671s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.732s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.732s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.837s] -- The C compiler identification is GNU 11.4.0
+[2.862s] -- Detecting C compiler ABI info
+[3.092s] -- Detecting C compiler ABI info - done
+[3.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.172s] -- Detecting C compile features
+[3.176s] -- Detecting C compile features - done
+[3.241s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[3.241s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.241s]   CMake.
+[3.241s] 
+[3.241s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.241s]   to tell CMake that the project requires at least <min> but has been updated
+[3.241s]   to work with policies introduced by <max> or earlier.
+[3.241s] 
+[3.242s] [0m
+[3.281s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.292s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.349s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[3.349s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.349s]   CMake.
+[3.349s] 
+[3.349s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.350s]   to tell CMake that the project requires at least <min> but has been updated
+[3.350s]   to work with policies introduced by <max> or earlier.
+[3.350s] 
+[3.350s] [0m
+[4.108s] -- Configuring done (4.1s)
+[4.865s] -- Generating done (0.8s)
+[5.127s] -- Build files have been written to: /home/libok/um_file/build/mecanum_drive_controller
+[5.539s] Invoked command in '/home/libok/um_file/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/mecanum_drive_controller
+[5.542s] Invoking command in '/home/libok/um_file/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/mecanum_drive_controller -- -j18 -l18
+[122.950s] [  6%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/libok/um_file/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.yaml `[0m
+[122.952s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[122.952s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[122.952s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[122.953s] [ 31%] [34m[1mCreating deprecated header file /home/libok/um_file/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[122.953s] [ 31%] Built target mecanum_drive_controller_parameters
+[122.953s] [ 37%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[122.955s] [ 43%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[122.956s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[122.957s] [ 50%] Built target gmock_main
+[122.957s] [ 56%] [32m[1mLinking CXX static library libgmock.a[0m
+[122.957s] [ 56%] Built target gmock
+[122.957s] [ 62%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[122.957s] [ 62%] Built target mecanum_drive_controller
+[122.958s] [ 68%] [32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o[0m
+[122.958s] [ 75%] [32m[1mLinking CXX executable test_load_mecanum_drive_controller[0m
+[122.958s] [ 75%] Built target test_load_mecanum_drive_controller
+[122.958s] [ 81%] [32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller_preceding.dir/test/test_mecanum_drive_controller_preceding.cpp.o[0m
+[146.025s] [ 87%] [32m[1mLinking CXX executable test_mecanum_drive_controller_preceding[0m
+[150.522s] [ 87%] Built target test_mecanum_drive_controller_preceding
+[150.670s] [ 93%] [32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller.dir/test/test_mecanum_drive_controller.cpp.o[0m
+[197.890s] [100%] [32m[1mLinking CXX executable test_mecanum_drive_controller[0m
+[201.116s] [100%] Built target test_mecanum_drive_controller
+[201.159s] Invoked command in '/home/libok/um_file/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/mecanum_drive_controller -- -j18 -l18
+[201.297s] Invoking command in '/home/libok/um_file/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/mecanum_drive_controller
+[201.315s] -- Install configuration: ""
+[201.323s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller
+[201.327s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[201.331s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_controller.xml
+[201.333s] -- Up-to-date: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller
+[201.333s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller
+[201.333s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[201.333s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[201.334s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[201.337s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[201.341s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[201.343s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[201.344s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[201.344s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[201.345s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[201.347s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[201.348s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[201.348s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[201.349s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[201.349s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[201.349s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[201.350s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[201.350s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[201.352s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[201.353s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[201.353s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[201.353s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[201.354s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake
+[201.355s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[201.356s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[201.357s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[201.358s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[201.358s] -- Installing: /home/libok/um_file/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[201.780s] Invoked command in '/home/libok/um_file/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/mecanum_drive_controller

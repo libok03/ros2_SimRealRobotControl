@@ -1,0 +1,140 @@
+[0.072s] Invoking command in '/home/libok/um_file/build/ros2srrc_execution': CMAKE_PREFIX_PATH=/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/serial:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/libok/um_file/install/ros2srrc_data/lib:/home/libok/um_file/install/ur_robot_driver/lib:/home/libok/um_file/install/velocity_controllers/lib:/home/libok/um_file/install/ur_controllers/lib:/home/libok/um_file/install/ur_msgs/lib:/home/libok/um_file/install/ur_dashboard_msgs/lib:/home/libok/um_file/install/tricycle_steering_controller/lib:/home/libok/um_file/install/tricycle_controller/lib:/home/libok/um_file/install/bicycle_steering_controller/lib:/home/libok/um_file/install/ackermann_steering_controller/lib:/home/libok/um_file/install/steering_controllers_library/lib:/home/libok/um_file/install/robotiq_driver/lib:/home/libok/um_file/install/serial/lib:/home/libok/um_file/install/robotiq_controllers/lib:/home/libok/um_file/install/range_sensor_broadcaster/lib:/home/libok/um_file/install/position_controllers/lib:/home/libok/um_file/install/pose_broadcaster/lib:/home/libok/um_file/install/pid_controller/lib:/home/libok/um_file/install/mecanum_drive_controller/lib:/home/libok/um_file/install/joint_trajectory_controller/lib:/home/libok/um_file/install/joint_state_broadcaster/lib:/home/libok/um_file/install/imu_sensor_broadcaster/lib:/home/libok/um_file/install/gripper_controllers/lib:/home/libok/um_file/install/gpio_controllers/lib:/home/libok/um_file/install/effort_controllers/lib:/home/libok/um_file/install/forward_command_controller/lib:/home/libok/um_file/install/force_torque_sensor_broadcaster/lib:/home/libok/um_file/install/diff_drive_controller/lib:/home/libok/um_file/install/admittance_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/local/bin/cmake /home/libok/um_file/ros2srrc_execution -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_execution
+[0.090s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.095s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.097s]   CMake.
+[0.097s] 
+[0.098s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.098s]   to tell CMake that the project requires at least <min> but has been updated
+[0.098s]   to work with policies introduced by <max> or earlier.
+[0.099s] 
+[0.100s] [0m
+[0.282s] -- The C compiler identification is GNU 11.4.0
+[0.549s] -- The CXX compiler identification is GNU 11.4.0
+[0.604s] -- Detecting C compiler ABI info
+[0.900s] -- Detecting C compiler ABI info - done
+[0.987s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.987s] -- Detecting C compile features
+[0.990s] -- Detecting C compile features - done
+[1.041s] -- Detecting CXX compiler ABI info
+[1.339s] -- Detecting CXX compiler ABI info - done
+[1.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.404s] -- Detecting CXX compile features
+[1.406s] -- Detecting CXX compile features - done
+[1.442s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.911s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.265s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.601s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.601s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[2.601s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.601s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.602s]   set the policy and suppress this warning.
+[2.602s] 
+[2.602s] Call Stack (most recent call first):
+[2.602s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.602s]   CMakeLists.txt:30 (find_package)
+[2.603s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.603s] [0m
+[2.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread
+[3.078s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.099s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.131s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.037s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[4.037s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.037s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.037s]   set the policy and suppress this warning.
+[4.037s] 
+[4.038s] Call Stack (most recent call first):
+[4.038s]   /opt/ros/humble/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[4.038s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.038s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[4.038s]   CMakeLists.txt:30 (find_package)
+[4.038s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.039s] [0m
+[4.092s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
+[4.311s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.528s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.547s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.865s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[4.936s] -- Found FastRTPS: /opt/ros/humble/include
+[5.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.076s] -- Found Threads: TRUE
+[5.213s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.272s] [33mCMake Warning (dev) at /opt/ros/humble/share/geometric_shapes/cmake/ConfigExtras.cmake:31 (find_package):
+[5.272s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[5.273s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[5.273s]   set the policy and suppress this warning.
+[5.273s] 
+[5.273s] Call Stack (most recent call first):
+[5.273s]   /opt/ros/humble/share/geometric_shapes/cmake/geometric_shapesConfig.cmake:41 (include)
+[5.273s]   /opt/ros/humble/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.274s]   /opt/ros/humble/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[5.274s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[5.274s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[5.274s]   CMakeLists.txt:30 (find_package)
+[5.274s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.274s] [0m
+[5.281s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem
+[5.563s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.688s] -- Found Eigen3: TRUE (found version "3.4.0")
+[5.688s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.147s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[6.147s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.147s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.147s]   set the policy and suppress this warning.
+[6.147s] 
+[6.148s] Call Stack (most recent call first):
+[6.148s]   /opt/ros/humble/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[6.148s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.148s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[6.148s]   CMakeLists.txt:30 (find_package)
+[6.148s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.148s] [0m
+[6.163s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono
+[6.322s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[6.323s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.323s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.323s]   set the policy and suppress this warning.
+[6.323s] 
+[6.323s] Call Stack (most recent call first):
+[6.323s]   /opt/ros/humble/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[6.324s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.324s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[6.324s]   CMakeLists.txt:30 (find_package)
+[6.324s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.324s] [0m
+[6.338s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options
+[6.404s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[6.404s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[6.404s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[6.404s]   set the policy and suppress this warning.
+[6.404s] 
+[6.405s] Call Stack (most recent call first):
+[6.405s]   /opt/ros/humble/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[6.405s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.405s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[6.405s]   CMakeLists.txt:30 (find_package)
+[6.405s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.405s] [0m
+[6.418s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread
+[6.589s] -- Found ros2srrc_data: 0.0.0 (/home/libok/um_file/install/ros2srrc_data/share/ros2srrc_data/cmake)
+[6.681s] [31mCMake Error at CMakeLists.txt:37 (find_package):
+[6.681s]   By not providing "Findlinkattacher_msgs.cmake" in CMAKE_MODULE_PATH this
+[6.681s]   project has asked CMake to find a package configuration file provided by
+[6.681s]   "linkattacher_msgs", but CMake did not find one.
+[6.682s] 
+[6.682s]   Could not find a package configuration file provided by "linkattacher_msgs"
+[6.682s]   with any of the following names:
+[6.682s] 
+[6.682s]     linkattacher_msgsConfig.cmake
+[6.683s]     linkattacher_msgs-config.cmake
+[6.683s] 
+[6.683s]   Add the installation prefix of "linkattacher_msgs" to CMAKE_PREFIX_PATH or
+[6.683s]   set "linkattacher_msgs_DIR" to a directory containing one of the above
+[6.683s]   files.  If "linkattacher_msgs" provides a separate development package or
+[6.683s]   SDK, be sure it has been installed.
+[6.683s] 
+[6.684s] [0m
+[6.684s] -- Configuring incomplete, errors occurred!
+[6.706s] Invoked command in '/home/libok/um_file/build/ros2srrc_execution' returned '1': CMAKE_PREFIX_PATH=/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/serial:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/libok/um_file/install/ros2srrc_data/lib:/home/libok/um_file/install/ur_robot_driver/lib:/home/libok/um_file/install/velocity_controllers/lib:/home/libok/um_file/install/ur_controllers/lib:/home/libok/um_file/install/ur_msgs/lib:/home/libok/um_file/install/ur_dashboard_msgs/lib:/home/libok/um_file/install/tricycle_steering_controller/lib:/home/libok/um_file/install/tricycle_controller/lib:/home/libok/um_file/install/bicycle_steering_controller/lib:/home/libok/um_file/install/ackermann_steering_controller/lib:/home/libok/um_file/install/steering_controllers_library/lib:/home/libok/um_file/install/robotiq_driver/lib:/home/libok/um_file/install/serial/lib:/home/libok/um_file/install/robotiq_controllers/lib:/home/libok/um_file/install/range_sensor_broadcaster/lib:/home/libok/um_file/install/position_controllers/lib:/home/libok/um_file/install/pose_broadcaster/lib:/home/libok/um_file/install/pid_controller/lib:/home/libok/um_file/install/mecanum_drive_controller/lib:/home/libok/um_file/install/joint_trajectory_controller/lib:/home/libok/um_file/install/joint_state_broadcaster/lib:/home/libok/um_file/install/imu_sensor_broadcaster/lib:/home/libok/um_file/install/gripper_controllers/lib:/home/libok/um_file/install/gpio_controllers/lib:/home/libok/um_file/install/effort_controllers/lib:/home/libok/um_file/install/forward_command_controller/lib:/home/libok/um_file/install/force_torque_sensor_broadcaster/lib:/home/libok/um_file/install/diff_drive_controller/lib:/home/libok/um_file/install/admittance_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/local/bin/cmake /home/libok/um_file/ros2srrc_execution -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_execution

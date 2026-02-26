@@ -1,0 +1,119 @@
+[0.047s] Invoking command in '/home/libok/um_file/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/imu_sensor_broadcaster
+[2.634s] -- The CXX compiler identification is GNU 11.4.0
+[2.634s] -- Detecting CXX compiler ABI info
+[2.634s] -- Detecting CXX compiler ABI info - done
+[2.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.634s] -- Detecting CXX compile features
+[2.634s] -- Detecting CXX compile features - done
+[2.634s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.634s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.635s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.635s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.635s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.635s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.635s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.635s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.635s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[2.635s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.635s] -- Found FastRTPS: /opt/ros/humble/include
+[2.635s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.635s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.635s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.636s] -- Found Threads: TRUE
+[2.636s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[2.636s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.636s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.636s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.636s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.636s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.636s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.636s] -- The C compiler identification is GNU 11.4.0
+[2.636s] -- Detecting C compiler ABI info
+[2.636s] -- Detecting C compiler ABI info - done
+[2.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.636s] -- Detecting C compile features
+[2.636s] -- Detecting C compile features - done
+[2.636s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.636s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.636s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.637s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.637s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.639s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.639s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.639s]   CMake.
+[2.640s] 
+[2.642s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.642s]   to tell CMake that the project requires at least <min> but has been updated
+[2.642s]   to work with policies introduced by <max> or earlier.
+[2.642s] 
+[2.642s] [0m
+[2.642s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.642s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.642s]   CMake.
+[2.642s] 
+[2.642s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.643s]   to tell CMake that the project requires at least <min> but has been updated
+[2.643s]   to work with policies introduced by <max> or earlier.
+[2.643s] 
+[2.643s] [0m
+[3.403s] -- Configuring done (3.4s)
+[3.566s] -- Generating done (0.2s)
+[3.609s] -- Build files have been written to: /home/libok/um_file/build/imu_sensor_broadcaster
+[3.656s] Invoked command in '/home/libok/um_file/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/imu_sensor_broadcaster
+[3.657s] Invoking command in '/home/libok/um_file/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/imu_sensor_broadcaster -- -j18 -l18
+[122.945s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp /home/libok/um_file/ros2_controllers/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml `[0m
+[122.946s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[122.946s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[122.947s] [ 36%] [34m[1mCreating deprecated header file /home/libok/um_file/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp[0m
+[122.947s] [ 36%] Built target imu_sensor_broadcaster_parameters
+[122.947s] [ 45%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[122.947s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[122.947s] [ 54%] Built target gmock
+[122.947s] [ 63%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[122.948s] [ 63%] Built target imu_sensor_broadcaster
+[122.948s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[122.948s] [ 81%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[122.948s] [ 81%] Built target test_load_imu_sensor_broadcaster
+[122.948s] [ 90%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[122.948s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[122.949s] [100%] Built target test_imu_sensor_broadcaster
+[122.968s] Invoked command in '/home/libok/um_file/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/imu_sensor_broadcaster -- -j18 -l18
+[122.969s] Invoking command in '/home/libok/um_file/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/imu_sensor_broadcaster
+[137.196s] -- Install configuration: ""
+[137.197s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster
+[137.198s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp
+[137.198s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/imu_sensor_broadcaster.xml
+[137.198s] -- Up-to-date: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster
+[137.198s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster
+[137.198s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[137.198s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/visibility_control.h
+[137.199s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[137.204s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[137.205s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[137.205s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[137.206s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[137.206s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[137.207s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[137.208s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[137.208s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[137.208s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[137.209s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[137.209s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[137.209s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[137.210s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-noconfig.cmake
+[137.211s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.213s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[137.213s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[137.215s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[137.216s] -- Installing: /home/libok/um_file/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[137.377s] Invoked command in '/home/libok/um_file/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/imu_sensor_broadcaster

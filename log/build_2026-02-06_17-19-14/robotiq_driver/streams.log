@@ -1,0 +1,169 @@
+[0.173s] Invoking command in '/home/libok/um_file/build/robotiq_driver': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/robotiq_driver
+[17.297s] -- The CXX compiler identification is GNU 11.4.0
+[17.298s] -- Detecting CXX compiler ABI info
+[17.298s] -- Detecting CXX compiler ABI info - done
+[17.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[17.304s] -- Detecting CXX compile features
+[17.304s] -- Detecting CXX compile features - done
+[17.304s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[17.305s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[17.305s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.305s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.306s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.315s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.316s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.316s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[17.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[17.317s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[17.317s] -- Found FastRTPS: /opt/ros/humble/include
+[17.317s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[17.317s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[17.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.322s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.323s] -- Found Threads: TRUE
+[17.323s] -- Found serial: 1.2.1 (/home/libok/um_file/install/serial/share/serial/cmake)
+[17.324s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[17.324s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[17.324s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.325s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[17.325s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[17.325s] -- The C compiler identification is GNU 11.4.0
+[17.329s] -- Detecting C compiler ABI info
+[17.329s] -- Detecting C compiler ABI info - done
+[17.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[17.330s] -- Detecting C compile features
+[17.330s] -- Detecting C compile features - done
+[17.330s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[17.330s] -- Configuring done (15.0s)
+[17.331s] -- Generating done (0.5s)
+[17.331s] -- Build files have been written to: /home/libok/um_file/build/robotiq_driver
+[17.357s] [0mCMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+[17.357s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[17.357s]   CMake.
+[17.358s] 
+[17.358s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[17.358s]   to tell CMake that the project requires at least <min> but has been updated
+[17.358s]   to work with policies introduced by <max> or earlier.
+[17.359s] 
+[17.359s] [0m
+[17.366s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[17.366s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[17.366s]   CMake.
+[17.367s] 
+[17.367s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[17.367s]   to tell CMake that the project requires at least <min> but has been updated
+[17.367s]   to work with policies introduced by <max> or earlier.
+[17.368s] 
+[17.368s] [0m
+[17.368s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[17.368s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[17.369s]   CMake.
+[17.369s] 
+[17.374s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[17.374s]   to tell CMake that the project requires at least <min> but has been updated
+[17.374s]   to work with policies introduced by <max> or earlier.
+[17.375s] 
+[17.375s] [0m
+[17.488s] Invoked command in '/home/libok/um_file/build/robotiq_driver' returned '0': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/robotiq_driver
+[17.495s] Invoking command in '/home/libok/um_file/build/robotiq_driver': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/robotiq_driver -- -j18 -l18
+[26.999s] [  4%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/crc_utils.cpp.o[0m
+[27.000s] [  8%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial_factory.cpp.o[0m
+[27.000s] [ 12%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial.cpp.o[0m
+[27.000s] [ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/fake/fake_driver.cpp.o[0m
+[27.000s] [ 20%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver_factory.cpp.o[0m
+[28.529s] [ 25%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver.cpp.o[0m
+[37.284s] [ 29%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o[0m
+[42.498s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[42.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[42.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[42.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[42.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[42.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[42.500s]                  from [01m[K/home/libok/um_file/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/hardware_interface.hpp:48[m[K,
+[42.500s]                  from [01m[K/home/libok/um_file/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:36[m[K:
+[42.500s] [01m[K/home/libok/um_file/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn robotiq_driver::RobotiqGripperHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[42.501s] [01m[K/home/libok/um_file/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:108:27:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[42.501s]   108 |     RCLCPP_FATAL(kLogger, [01;35m[K"Joint '%s' has does not have expected '%s' interface."[m[K, joint.name.c_str(),
+[42.501s]       |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.356s] [ 33%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/data_utils.cpp.o[0m
+[52.606s] [ 37%] [32m[1mLinking CXX shared library librobotiq_driver.so[0m
+[54.036s] [ 37%] Built target robotiq_driver
+[54.157s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[71.412s] [ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[76.989s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[77.623s] [ 50%] Built target gmock
+[77.773s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[81.639s] [ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[81.785s] [ 58%] Built target gmock_main
+[81.836s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/test_robotiq_gripper_hardware_interface.cpp.o[0m
+[102.403s] [ 66%] [32m[1mLinking CXX executable test_robotiq_gripper_hardware_interface[0m
+[102.919s] [ 66%] Built target test_robotiq_gripper_hardware_interface
+[102.955s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/test_data_utils.dir/test_data_utils.cpp.o[0m
+[106.481s] [ 75%] [32m[1mLinking CXX executable test_data_utils[0m
+[107.142s] [ 75%] Built target test_data_utils
+[107.172s] [ 79%] [32mBuilding CXX object tests/CMakeFiles/test_crc_utils.dir/test_crc_utils.cpp.o[0m
+[110.248s] [ 83%] [32m[1mLinking CXX executable test_crc_utils[0m
+[110.641s] [ 83%] Built target test_crc_utils
+[110.670s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_default_driver_factory.dir/test_default_driver_factory.cpp.o[0m
+[119.398s] [ 91%] [32m[1mLinking CXX executable test_default_driver_factory[0m
+[119.895s] [ 91%] Built target test_default_driver_factory
+[119.927s] [ 95%] [32mBuilding CXX object tests/CMakeFiles/test_default_serial_factory.dir/test_default_serial_factory.cpp.o[0m
+[125.400s] [100%] [32m[1mLinking CXX executable test_default_serial_factory[0m
+[127.145s] [100%] Built target test_default_serial_factory
+[127.181s] Invoked command in '/home/libok/um_file/build/robotiq_driver' returned '0': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/robotiq_driver -- -j18 -l18
+[127.196s] Invoking command in '/home/libok/um_file/build/robotiq_driver': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/robotiq_driver
+[127.219s] -- Install configuration: ""
+[127.221s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/hardware_interface_plugin.xml
+[127.222s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/library_path.sh
+[127.223s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/library_path.dsv
+[127.225s] -- Installing: /home/libok/um_file/install/robotiq_driver/include
+[127.225s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver
+[127.228s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/driver_exception.hpp
+[127.229s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/fake
+[127.229s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/fake/fake_driver.hpp
+[127.230s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/hardware_interface.hpp
+[127.230s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/default_driver.hpp
+[127.233s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/serial.hpp
+[127.233s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/default_serial_factory.hpp
+[127.234s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/default_serial.hpp
+[127.234s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/serial_factory.hpp
+[127.235s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/crc_utils.hpp
+[127.236s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/default_driver_factory.hpp
+[127.237s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/data_utils.hpp
+[127.237s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/driver.hpp
+[127.238s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/visibility_control.hpp
+[127.238s] -- Installing: /home/libok/um_file/install/robotiq_driver/include/robotiq_driver/driver_factory.hpp
+[127.239s] -- Installing: /home/libok/um_file/install/robotiq_driver/lib/librobotiq_driver.so
+[127.243s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/robotiq_driver/lib/librobotiq_driver.so" to ""
+[127.244s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/ament_index/resource_index/package_run_dependencies/robotiq_driver
+[127.244s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/ament_index/resource_index/parent_prefix_path/robotiq_driver
+[127.245s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.sh
+[127.246s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.dsv
+[127.248s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/path.sh
+[127.250s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/environment/path.dsv
+[127.251s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/local_setup.bash
+[127.252s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/local_setup.sh
+[127.253s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/local_setup.zsh
+[127.254s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/local_setup.dsv
+[127.255s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/package.dsv
+[127.256s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/ament_index/resource_index/packages/robotiq_driver
+[127.256s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotiq_driver
+[127.257s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driver_targetsExport.cmake
+[127.258s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driver_targetsExport-noconfig.cmake
+[127.258s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_targets-extras.cmake
+[127.259s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[127.260s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[127.261s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[127.262s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig.cmake
+[127.263s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig-version.cmake
+[127.263s] -- Installing: /home/libok/um_file/install/robotiq_driver/share/robotiq_driver/package.xml
+[127.278s] Invoked command in '/home/libok/um_file/build/robotiq_driver' returned '0': CMAKE_PREFIX_PATH=/home/libok/um_file/install/serial:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/robotiq_driver

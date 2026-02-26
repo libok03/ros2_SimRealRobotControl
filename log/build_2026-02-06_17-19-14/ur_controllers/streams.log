@@ -1,0 +1,92 @@
+[0.049s] Invoking command in '/home/libok/um_file/build/ur_controllers': CMAKE_PREFIX_PATH=/home/libok/um_file/install/ur_msgs:/home/libok/um_file/install/ur_dashboard_msgs:/home/libok/um_file/install/joint_trajectory_controller:/home/libok/um_file/install/ur:/home/libok/um_file/install/ur_calibration:/home/libok/um_file/install/ur_robot_driver:/home/libok/um_file/install/ur_bringup:/home/libok/um_file/install/robotiq_description:/home/libok/um_file/install/ros2_controllers:/home/libok/um_file/install/velocity_controllers:/home/libok/um_file/install/ur_controllers:/home/libok/um_file/install/ur_moveit_config:/home/libok/um_file/install/tricycle_steering_controller:/home/libok/um_file/install/tricycle_controller:/home/libok/um_file/install/bicycle_steering_controller:/home/libok/um_file/install/ackermann_steering_controller:/home/libok/um_file/install/steering_controllers_library:/home/libok/um_file/install/robotiq_hardware_tests:/home/libok/um_file/install/robotiq_driver:/home/libok/um_file/install/serial:/home/libok/um_file/install/ros2srrc_robots:/home/libok/um_file/install/ros2srrc_moveit:/home/libok/um_file/install/ros2srrc_launch:/home/libok/um_file/install/ros2srrc_gazebo:/home/libok/um_file/install/ros2srrc_endeffectors:/home/libok/um_file/install/ros2srrc_data:/home/libok/um_file/install/robotiq_controllers:/home/libok/um_file/install/range_sensor_broadcaster:/home/libok/um_file/install/position_controllers:/home/libok/um_file/install/pose_broadcaster:/home/libok/um_file/install/pid_controller:/home/libok/um_file/install/mecanum_drive_controller:/home/libok/um_file/install/joint_state_broadcaster:/home/libok/um_file/install/imu_sensor_broadcaster:/home/libok/um_file/install/gripper_controllers:/home/libok/um_file/install/gpio_controllers:/home/libok/um_file/install/effort_controllers:/home/libok/um_file/install/forward_command_controller:/home/libok/um_file/install/force_torque_sensor_broadcaster:/home/libok/um_file/install/diff_drive_controller:/home/libok/um_file/install/admittance_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/libok/um_file/install/ur_msgs/lib:/home/libok/um_file/install/ur_dashboard_msgs/lib:/home/libok/um_file/install/joint_trajectory_controller/lib:/home/libok/um_file/install/ur_robot_driver/lib:/home/libok/um_file/install/velocity_controllers/lib:/home/libok/um_file/install/ur_controllers/lib:/home/libok/um_file/install/tricycle_steering_controller/lib:/home/libok/um_file/install/tricycle_controller/lib:/home/libok/um_file/install/bicycle_steering_controller/lib:/home/libok/um_file/install/ackermann_steering_controller/lib:/home/libok/um_file/install/steering_controllers_library/lib:/home/libok/um_file/install/robotiq_driver/lib:/home/libok/um_file/install/serial/lib:/home/libok/um_file/install/ros2srrc_data/lib:/home/libok/um_file/install/robotiq_controllers/lib:/home/libok/um_file/install/range_sensor_broadcaster/lib:/home/libok/um_file/install/position_controllers/lib:/home/libok/um_file/install/pose_broadcaster/lib:/home/libok/um_file/install/pid_controller/lib:/home/libok/um_file/install/mecanum_drive_controller/lib:/home/libok/um_file/install/joint_state_broadcaster/lib:/home/libok/um_file/install/imu_sensor_broadcaster/lib:/home/libok/um_file/install/gripper_controllers/lib:/home/libok/um_file/install/gpio_controllers/lib:/home/libok/um_file/install/effort_controllers/lib:/home/libok/um_file/install/forward_command_controller/lib:/home/libok/um_file/install/force_torque_sensor_broadcaster/lib:/home/libok/um_file/install/diff_drive_controller/lib:/home/libok/um_file/install/admittance_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/libok/.mujoco/mujoco210/bin:/usr/lib/nvidia /usr/local/bin/cmake /home/libok/um_file/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ur_controllers
+[0.059s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.059s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.059s]   CMake.
+[0.059s] 
+[0.060s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.060s]   to tell CMake that the project requires at least <min> but has been updated
+[0.060s]   to work with policies introduced by <max> or earlier.
+[0.060s] 
+[0.060s] [0m
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.295s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.505s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.539s] -- Detecting CXX compiler ABI info
+[0.693s] -- Detecting CXX compiler ABI info - done
+[0.727s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.727s] -- Detecting CXX compile features
+[0.728s] -- Detecting CXX compile features - done
+[0.755s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.109s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.355s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.364s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.497s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.515s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.542s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.294s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.311s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.394s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[2.582s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.626s] -- Found FastRTPS: /opt/ros/humble/include
+[2.635s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.660s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.896s] -- Found Threads: TRUE
+[3.031s] -- Found joint_trajectory_controller: 2.52.0 (/home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)
+[3.170s] [33mCMake Warning (dev) at /opt/ros/humble/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[3.170s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.170s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.170s]   set the policy and suppress this warning.
+[3.170s] 
+[3.171s] Call Stack (most recent call first):
+[3.171s]   /opt/ros/humble/share/filters/cmake/filtersConfig.cmake:41 (include)
+[3.171s]   /opt/ros/humble/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.171s]   /opt/ros/humble/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[3.171s]   /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.171s]   /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake:41 (include)
+[3.171s]   CMakeLists.txt:13 (find_package)
+[3.171s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.172s] [0m
+[3.236s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.258s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.282s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.284s] -- Found Eigen3: TRUE (found version "3.4.0")
+[3.284s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.417s] -- Found ur_dashboard_msgs: 2.12.0 (/home/libok/um_file/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[3.449s] -- Found ur_msgs: 2.3.0 (/home/libok/um_file/install/ur_msgs/share/ur_msgs/cmake)
+[3.552s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.556s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.601s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[3.607s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.609s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[3.610s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.610s]   CMake.
+[3.610s] 
+[3.610s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.610s]   to tell CMake that the project requires at least <min> but has been updated
+[3.610s]   to work with policies introduced by <max> or earlier.
+[3.611s] 
+[3.611s] [0m
+[3.619s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.620s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.622s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[3.623s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.623s]   CMake.
+[3.623s] 
+[3.623s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.623s]   to tell CMake that the project requires at least <min> but has been updated
+[3.623s]   to work with policies introduced by <max> or earlier.
+[3.623s] 
+[3.623s] [0m
+[3.780s] -- Configuring done (3.7s)
+[3.838s] -- Generating done (0.1s)
+[3.850s] -- Build files have been written to: /home/libok/um_file/build/ur_controllers

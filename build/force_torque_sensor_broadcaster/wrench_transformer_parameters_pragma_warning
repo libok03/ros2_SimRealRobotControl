@@ -1,0 +1,1 @@
+#pragma message("#include \"wrench_transformer_parameters.hpp\" is deprecated. Use #include <force_torque_sensor_broadcaster/wrench_transformer_parameters.hpp> instead.")

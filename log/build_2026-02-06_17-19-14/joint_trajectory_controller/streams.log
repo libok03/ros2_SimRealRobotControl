@@ -1,0 +1,142 @@
+[0.044s] Invoking command in '/home/libok/um_file/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/joint_trajectory_controller
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.647s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.651s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.738s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.751s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.072s] -- Found control_toolbox: 3.6.3 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.168s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.471s] -- Found FastRTPS: /opt/ros/humble/include
+[1.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.782s] -- Found Threads: TRUE
+[1.957s] [33mCMake Warning (dev) at /opt/ros/humble/share/filters/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[1.957s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.957s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.957s]   set the policy and suppress this warning.
+[1.957s] 
+[1.957s] Call Stack (most recent call first):
+[1.957s]   /opt/ros/humble/share/filters/cmake/filtersConfig.cmake:41 (include)
+[1.957s]   /opt/ros/humble/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.957s]   /opt/ros/humble/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[1.957s]   CMakeLists.txt:28 (find_package)
+[1.957s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.958s] [0m
+[2.018s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.059s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.061s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.096s] -- Found ros2_control_test_assets: 2.53.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[2.096s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.162s] -- The C compiler identification is GNU 11.4.0
+[2.180s] -- Detecting C compiler ABI info
+[2.369s] -- Detecting C compiler ABI info - done
+[2.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.397s] -- Detecting C compile features
+[2.397s] -- Detecting C compile features - done
+[2.409s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gmock_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.409s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.410s]   CMake.
+[2.410s] 
+[2.410s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.411s]   to tell CMake that the project requires at least <min> but has been updated
+[2.411s]   to work with policies introduced by <max> or earlier.
+[2.413s] 
+[2.413s] [0m
+[2.415s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.416s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.422s] [0mCMake Deprecation Warning at /opt/ros/humble/src/gtest_vendor/CMakeLists.txt:2 (cmake_minimum_required):
+[2.422s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[2.422s]   CMake.
+[2.422s] 
+[2.422s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[2.422s]   to tell CMake that the project requires at least <min> but has been updated
+[2.422s]   to work with policies introduced by <max> or earlier.
+[2.422s] 
+[2.422s] [0m
+[2.598s] -- Configuring done (2.5s)
+[2.755s] -- Generating done (0.1s)
+[2.759s] -- Build files have been written to: /home/libok/um_file/build/joint_trajectory_controller
+[2.807s] Invoked command in '/home/libok/um_file/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/joint_trajectory_controller
+[2.817s] Invoking command in '/home/libok/um_file/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/joint_trajectory_controller -- -j18 -l18
+[3.470s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.471s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/libok/um_file/build/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp /home/libok/um_file/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[3.471s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.471s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[11.456s] [ 25%] [34m[1mCreating deprecated header file /home/libok/um_file/build/joint_trajectory_controller/include/joint_trajectory_controller_parameters.hpp[0m
+[11.505s] [ 25%] Built target joint_trajectory_controller_parameters
+[11.536s] [ 30%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[11.541s] [ 35%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[13.580s] [ 40%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.794s] [ 40%] Built target gmock_main
+[44.037s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[44.710s] [ 45%] Built target gmock
+[80.029s] [ 50%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[82.142s] [ 50%] Built target joint_trajectory_controller
+[82.264s] [ 55%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[117.086s] [ 60%] [32m[1mLinking CXX executable test_trajectory[0m
+[118.660s] [ 60%] Built target test_trajectory
+[118.719s] [ 65%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[167.169s] [ 70%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[169.289s] [ 70%] Built target test_trajectory_actions
+[169.346s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[186.717s] [ 80%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[189.171s] [ 80%] Built target test_load_joint_trajectory_controller
+[189.305s] [ 85%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[251.062s] [ 90%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[252.765s] [ 90%] Built target test_trajectory_controller
+[252.803s] [ 95%] [32mBuilding CXX object CMakeFiles/test_tolerances.dir/test/test_tolerances.cpp.o[0m
+[279.865s] [100%] [32m[1mLinking CXX executable test_tolerances[0m
+[280.500s] [100%] Built target test_tolerances
+[280.519s] Invoked command in '/home/libok/um_file/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/joint_trajectory_controller -- -j18 -l18
+[280.524s] Invoking command in '/home/libok/um_file/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/joint_trajectory_controller
+[280.535s] -- Install configuration: ""
+[280.535s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller
+[280.535s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp
+[280.536s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp
+[280.536s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+[280.537s] -- Up-to-date: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller
+[280.537s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller
+[280.538s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[280.538s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[280.538s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[280.538s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[280.538s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[280.539s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[280.539s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[280.553s] -- Set non-toolchain portion of runtime path of "/home/libok/um_file/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[280.553s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[280.554s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[280.554s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[280.555s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[280.555s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[280.555s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[280.556s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[280.556s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[280.556s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[280.557s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[280.557s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[280.557s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[280.558s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[280.558s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[280.558s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[280.559s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[280.559s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[280.560s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[280.560s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[280.560s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[280.561s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[280.561s] -- Installing: /home/libok/um_file/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[280.565s] Invoked command in '/home/libok/um_file/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/joint_trajectory_controller

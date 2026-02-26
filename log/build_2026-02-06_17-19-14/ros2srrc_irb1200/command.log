@@ -1,0 +1,6 @@
+Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_irb1200 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_irb1200
+Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/packages/ros2srrc_irb1200 -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_irb1200
+Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_irb1200 -- -j18 -l18
+Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_irb1200 -- -j18 -l18
+Invoking command in '/home/libok/um_file/build/ros2srrc_irb1200': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_irb1200
+Invoked command in '/home/libok/um_file/build/ros2srrc_irb1200' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_irb1200
