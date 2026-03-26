@@ -29,12 +29,12 @@ endif()
 # REQUIRED to -> Launch move_group interface:
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(linkattacher_msgs QUIET)
+find_package(ros_gz_interfaces QUIET)
 
 # REQUIRED to -> Include ros2srrc_data package:
 find_package(ros2srrc_data REQUIRED)
 
-# REQUIRED to -> Include linkattacher_msgs package:
-find_package(linkattacher_msgs REQUIRED)
 
 # REQUIRED to -> Execute ACTIONS:
 find_package(rclcpp_action REQUIRED)
@@ -44,14 +44,11 @@ find_package(std_msgs REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(ament_index_cpp REQUIRED)
 
-# REQUIRED to -> ABB:
-find_package(abb_robot_msgs REQUIRED)
 
-# REQUIRED to -> Robotiq:
-find_package(ros2_robotiqgripper REQUIRED)
 
 # Add include directories:
 include_directories(include)
+include_directories(/home/libok/um_file/include)
 
 # Add executable:
 add_executable(
@@ -72,6 +69,10 @@ add_executable(
   robpose
   src/robpose.cpp
 )
+add_executable(
+  pick_and_place
+  src/pick_and_place.cpp
+)
 
 # Link directories:
 include_directories(${YAML_CPP_INCLUDE_DIR})
@@ -90,6 +91,10 @@ install(TARGETS
   robpose
   DESTINATION lib/${PROJECT_NAME}
 )
+install(TARGETS
+  pick_and_place
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 # Install header files:
 install(
@@ -105,7 +110,6 @@ ament_target_dependencies(
   std_msgs
   rclcpp_action
   ros2srrc_data
-  abb_robot_msgs
   yaml-cpp
   ament_index_cpp
 )
@@ -124,6 +128,22 @@ ament_target_dependencies(
   std_msgs
   ros2srrc_data
 )
+ament_target_dependencies(
+  pick_and_place
+  rclcpp
+  moveit_ros_planning_interface
+  geometry_msgs
+)
+
+if(linkattacher_msgs_FOUND)
+  target_compile_definitions(pick_and_place PRIVATE ROS2SRRC_HAS_LINKATTACHER_MSGS=1)
+  ament_target_dependencies(pick_and_place linkattacher_msgs)
+endif()
+
+if(ros_gz_interfaces_FOUND)
+  target_compile_definitions(pick_and_place PRIVATE ROS2SRRC_HAS_ROS_GZ_INTERFACES=1)
+  ament_target_dependencies(pick_and_place ros_gz_interfaces)
+endif()
 
 # =========================================================== #
 # REQUIRED TO EXECUTE .py scripts:

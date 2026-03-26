@@ -36,17 +36,8 @@ endif()
 install(
   DIRECTORY 
     
-    egp64
-    
-    gpp5010nc
-
-    ls_vgr
-    ls_vgr_amrc
-    
     robotiq_2f85
     robotiq_hande
-
-    ar4gripper
     
   DESTINATION 
     share/${PROJECT_NAME}

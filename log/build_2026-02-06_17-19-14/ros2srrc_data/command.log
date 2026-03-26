@@ -1,6 +1,0 @@
-Invoking command in '/home/libok/um_file/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2srrc_data -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_data
-Invoked command in '/home/libok/um_file/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ros2srrc_data -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ros2srrc_data
-Invoking command in '/home/libok/um_file/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_data -- -j18 -l18
-Invoked command in '/home/libok/um_file/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ros2srrc_data -- -j18 -l18
-Invoking command in '/home/libok/um_file/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_data
-Invoked command in '/home/libok/um_file/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ros2srrc_data

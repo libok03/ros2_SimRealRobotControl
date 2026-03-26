@@ -1,9 +1,0 @@
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/uninstall.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/ros2srrc_gazebo_uninstall.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/test.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/edit_cache.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/rebuild_cache.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/list_install_components.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/install.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/install/local.dir
-/home/libok/um_file/build/ros2srrc_gazebo/CMakeFiles/install/strip.dir

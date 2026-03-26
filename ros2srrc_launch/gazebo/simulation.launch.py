@@ -36,9 +36,11 @@ import os, sys, xacro, yaml
 from ament_index_python.packages import get_package_share_directory, PackageNotFoundError
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription, RegisterEventHandler
+from launch.actions import IncludeLaunchDescription, RegisterEventHandler, DeclareLaunchArgument
 from launch.event_handlers import OnProcessExit
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+
 
 # LOAD FILE:
 def load_file(package_name, file_path):
@@ -175,9 +177,17 @@ def generate_launch_description():
         'ros2srrc_gazebo.world')
     # DECLARE Gazebo LAUNCH file:
     gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py']),
-                launch_arguments={'world': world_gazebo}.items(),
+                PythonLaunchDescriptionSource([os.path.join(get_package_share_directory('ros_gz_sim'), 'launch'), '/gz_sim.launch.py']),
+                launch_arguments={'gz_args': f"-r {world_gazebo}"}.items(),
             )
+
+    # BRIDGE for clock (uses use_sim_time)
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'],
+        output='screen'
+    )
 
     # ***** ROBOT DESCRIPTION ***** #
     # Robot Description file package:
@@ -217,8 +227,10 @@ def generate_launch_description():
     )
 
     # SPAWN ROBOT TO GAZEBO:
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-                        arguments=['-topic', 'robot_description','-entity', CONFIGURATION["rob"]],
+    spawn_entity = Node(package='ros_gz_sim', executable='create',
+                        arguments=['-name', CONFIGURATION["rob"],
+                                   '-topic', 'robot_description',
+                                   '-x', '0.0', '-y', '0.0', '-z', '0.0'],
                         output='both')
 
     # ***** CONTROLLERS ***** #
@@ -254,6 +266,7 @@ def generate_launch_description():
 
     # Add ROS 2 Nodes to LaunchDescription() element:
     LD.add_action(gazebo)
+    LD.add_action(bridge)
     LD.add_action(node_robot_state_publisher)
     LD.add_action(spawn_entity)
 

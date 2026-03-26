@@ -1,6 +1,0 @@
-Invoking command in '/home/libok/um_file/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ur_msgs -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ur_msgs
-Invoked command in '/home/libok/um_file/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/ur_msgs -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/ur_msgs
-Invoking command in '/home/libok/um_file/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ur_msgs -- -j18 -l18
-Invoked command in '/home/libok/um_file/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/ur_msgs -- -j18 -l18
-Invoking command in '/home/libok/um_file/build/ur_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ur_msgs
-Invoked command in '/home/libok/um_file/build/ur_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/ur_msgs

@@ -1,6 +1,0 @@
-Invoking command in '/home/libok/um_file/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/serial -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/serial
-Invoked command in '/home/libok/um_file/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/libok/um_file/serial -DCMAKE_INSTALL_PREFIX=/home/libok/um_file/install/serial
-Invoking command in '/home/libok/um_file/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/serial -- -j18 -l18
-Invoked command in '/home/libok/um_file/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/libok/um_file/build/serial -- -j18 -l18
-Invoking command in '/home/libok/um_file/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/serial
-Invoked command in '/home/libok/um_file/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/libok/um_file/build/serial

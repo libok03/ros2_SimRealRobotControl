@@ -37,6 +37,7 @@ install(
     gazebo
     moveit2
     bringup
+    execution
   DESTINATION 
     share/${PROJECT_NAME}
 )

@@ -1,9 +1,0 @@
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/uninstall.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/ros2srrc_irb6640_uninstall.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/test.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/edit_cache.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/rebuild_cache.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/list_install_components.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/install.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/install/local.dir
-/home/libok/um_file/build/ros2srrc_irb6640/CMakeFiles/install/strip.dir
