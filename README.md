@@ -1,7 +1,5 @@
 # UR5e Pick and Place in ROS2 🤖
 
-![UR5e Banner](assets/ur5e_banner.png)
-
 A comprehensive ROS 2 workspace for simulating and executing Pick and Place operations using a **Universal Robots UR5e** manipulator equipped with a **Robotiq 2F-85** Gripper. 
 
 This repository provides a complete pipeline from Gazebo simulation to MoveIt 2 motion planning, with a robust approach for grasping and manipulating objects in a custom environment.
